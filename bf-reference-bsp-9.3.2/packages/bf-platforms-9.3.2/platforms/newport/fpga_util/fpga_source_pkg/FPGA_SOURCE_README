@@ -1,0 +1,30 @@
+Barefoot Networks FPGA Source Code
+====================================
+--- Extracting package ---
+mkdir fpga_src_pkg
+tar -xvzf <fpga_source_pkg_name> -C fpga_src_pkg
+
+--- Environment setup ---
+sudo bash
+export FPGA_SRC_PKG_DIR=$(pwd)/fpga_src_pkg
+export LD_LIBRARY_PATH=/usr/local/lib:$FPGA_SRC_PKG_DIR/install/lib:$LD_LIBRARY_PATH
+
+--- Compiling the utility ---
+cd $FPGA_SRC_PKG_DIR
+make
+
+A dump of all the commands can be obtained by simply running 
+./fpga_util
+
+if no mux on bus, use mux_i2c_adr >= 0x80 (mux_chn = xx)
+
+Usage:
+./fpga_util i2c_read <fpga_id> <bus> <mux_i2c_adr> <mux_chn> <i2c_addr> <length>
+./fpga_util i2c_write <fpga_id> <bus> <mux_i2c_adr> <mux_chn> <i2c_addr> <length> <byte1> [<byte2> ...]
+./fpga_util i2c_addr_read <fpga_id> <bus> <mux_i2c_adr> <mux_chn> <i2c_addr> <read_length> <write_length> <byte1> [<byte2> ...]
+./fpga_util reg_read <fpga_id> <reg_addr>
+./fpga_util reg_write <fpga_id> <reg_addr> <32bit data>
+
+Example usages of the utility are as follows-
+./fpga_util i2c_read 0 32 0x88 0 0x74 1
+./fpga_util reg_write 0 0xffc 0x12345678

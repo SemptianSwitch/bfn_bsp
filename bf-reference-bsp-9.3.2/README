@@ -1,0 +1,48 @@
+Barefoot Networks Reference BSP Software
+========================================
+This tarball contains packages that serve as reference implementations for
+software managing platforms based on Barefoot Networks devices
+
+The following is the list of tarball packages that <bf-ref-bsp> is
+comprised of:
+
+    1) 	bf-platforms-<maj>.<med>.<min>.tgz:
+        The tarball package for platform software associated with BFN 
+        reference systems
+
+Extracting the BF-REF-BSP Packages
+==================================
+1) Unpack the <bf-ref-bsp> tarball
+
+    tar xzvf bf-ref-bsp-<maj>.<med>.<min>.tgz
+
+
+2) From here on the root directory directory of the extracted BF-REF-BSP is
+referred to as $BSP. Set the BSP environment variable
+
+    export BSP=<bf-ref-bsp>
+
+3) Extract all the packages of <bf-ref-bsp>
+    cd $BSP
+    ./extract_all.sh
+
+Here's the directory structure of <bf-ref-bsp> after it has been extracted
+
+    bf-ref-bsp-x.y.z\
+        README
+        packages/
+                 bf-platforms-x.y.z\
+                 <tar files for other BSP package modules>
+
+Each of the packaged modules includes a README file that lists the contents
+of the package, steps to build the and install it's artifacts
+(header files, libraries, binaries, data files)
+
+Building BSP packages
+=====================
+Source code in BSP packages includes header files from $SDE_INSTAL
+After a BF-BSP-REF package is built it's artifacts (header files, libraries,
+binaries, data files) need to be installed. It is recommended the install
+directory be set to be the same as SDE_INSTALL.
+
+    export BSP_INSTALL=$SDE_INSTALL

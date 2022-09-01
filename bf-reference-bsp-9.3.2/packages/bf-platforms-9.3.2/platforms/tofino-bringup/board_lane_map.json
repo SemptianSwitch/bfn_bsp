@@ -1,0 +1,5157 @@
+{
+    "board_name": "tofino-bringup-board",
+    "version": "0.1",
+    "board_lane_map_entry": [
+        {
+            "_comment":"example qsfp channel entry",
+            "connector": 1,
+            "lane": 0,
+            "mac_block": 29,
+            "mac_ch": 0,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "_comment":"eq_pre settings for various qsfp modules",
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 1,
+            "lane": 1,
+            "mac_block": 29,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 1,
+            "lane": 2,
+            "mac_block": 29,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 1,
+            "lane": 3,
+            "mac_block": 29,
+            "mac_ch": 3,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 2,
+            "lane": 0,
+            "mac_block": 31,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 2,
+            "lane": 1,
+            "mac_block": 31,
+            "mac_ch": 1,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 2,
+            "lane": 2,
+            "mac_block": 31,
+            "mac_ch": 2,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 2,
+            "lane": 3,
+            "mac_block": 31,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 3,
+            "lane": 0,
+            "mac_block": 28,
+            "mac_ch": 0,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 4,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 3,
+            "lane": 1,
+            "mac_block": 28,
+            "mac_ch": 1,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 4,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 3,
+            "lane": 2,
+            "mac_block": 28,
+            "mac_ch": 2,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 4,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 3,
+            "lane": 3,
+            "mac_block": 28,
+            "mac_ch": 3,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 4,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 4,
+            "lane": 0,
+            "mac_block": 30,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 4,
+            "lane": 1,
+            "mac_block": 30,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 4,
+            "lane": 2,
+            "mac_block": 30,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 4,
+            "lane": 3,
+            "mac_block": 30,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 5,
+            "lane": 0,
+            "mac_block": 25,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 5,
+            "lane": 1,
+            "mac_block": 25,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 5,
+            "lane": 2,
+            "mac_block": 25,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 5,
+            "lane": 3,
+            "mac_block": 25,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 6,
+            "lane": 0,
+            "mac_block": 26,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 6,
+            "lane": 1,
+            "mac_block": 26,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 6,
+            "lane": 2,
+            "mac_block": 26,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 6,
+            "lane": 3,
+            "mac_block": 26,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 7,
+            "lane": 0,
+            "mac_block": 24,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 7,
+            "lane": 1,
+            "mac_block": 24,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 7,
+            "lane": 2,
+            "mac_block": 24,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 7,
+            "lane": 3,
+            "mac_block": 24,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 8,
+            "lane": 0,
+            "mac_block": 27,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 8,
+            "lane": 1,
+            "mac_block": 27,
+            "mac_ch": 1,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 8,
+            "lane": 2,
+            "mac_block": 27,
+            "mac_ch": 2,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 8,
+            "lane": 3,
+            "mac_block": 27,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 9,
+            "lane": 0,
+            "mac_block": 23,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 9,
+            "lane": 1,
+            "mac_block": 23,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 9,
+            "lane": 2,
+            "mac_block": 23,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 9,
+            "lane": 3,
+            "mac_block": 23,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 10,
+            "lane": 0,
+            "mac_block": 22,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0 
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 10,
+            "lane": 1,
+            "mac_block": 22,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 10,
+            "lane": 2,
+            "mac_block": 22,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 10,
+            "lane": 3,
+            "mac_block": 22,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 11,
+            "lane": 0,
+            "mac_block": 21,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 11,
+            "lane": 1,
+            "mac_block": 21,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 11,
+            "lane": 2,
+            "mac_block": 21,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 11,
+            "lane": 3,
+            "mac_block": 21,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 12,
+            "lane": 0,
+            "mac_block": 20,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 12,
+            "lane": 1,
+            "mac_block": 20,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 12,
+            "lane": 2,
+            "mac_block": 20,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 12,
+            "lane": 3,
+            "mac_block": 20,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 13,
+            "lane": 0,
+            "mac_block": 19,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 13,
+            "lane": 1,
+            "mac_block": 19,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 13,
+            "lane": 2,
+            "mac_block": 19,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 13,
+            "lane": 3,
+            "mac_block": 19,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 14,
+            "lane": 0,
+            "mac_block": 18,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 14,
+            "lane": 1,
+            "mac_block": 18,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 14,
+            "lane": 2,
+            "mac_block": 18,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 14,
+            "lane": 3,
+            "mac_block": 18,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 15,
+            "lane": 0,
+            "mac_block": 17,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 15,
+            "lane": 1,
+            "mac_block": 17,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 15,
+            "lane": 2,
+            "mac_block": 17,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 15,
+            "lane": 3,
+            "mac_block": 17,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 16,
+            "lane": 0,
+            "mac_block": 16,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 6,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 16,
+            "lane": 1,
+            "mac_block": 16,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 6,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 16,
+            "lane": 2,
+            "mac_block": 16,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 6,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 16,
+            "lane": 3,
+            "mac_block": 16,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 6,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 2
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 17,
+            "lane": 0,
+            "mac_block": 15,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 17,
+            "lane": 1,
+            "mac_block": 15,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 17,
+            "lane": 2,
+            "mac_block": 15,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 17,
+            "lane": 3,
+            "mac_block": 15,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 18,
+            "lane": 0,
+            "mac_block": 14,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 6,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 18,
+            "lane": 1,
+            "mac_block": 14,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 6,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 18,
+            "lane": 2,
+            "mac_block": 14,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 6,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 18,
+            "lane": 3,
+            "mac_block": 14,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 6,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 19,
+            "lane": 0,
+            "mac_block": 13,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 19,
+            "lane": 1,
+            "mac_block": 13,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4 
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 19,
+            "lane": 2,
+            "mac_block": 13,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 19,
+            "lane": 3,
+            "mac_block": 13,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 20,
+            "lane": 0,
+            "mac_block": 12,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 20,
+            "lane": 1,
+            "mac_block": 12,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 20,
+            "lane": 2,
+            "mac_block": 12,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 20,
+            "lane": 3,
+            "mac_block": 12,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 21,
+            "lane": 0,
+            "mac_block": 11,
+            "mac_ch": 0,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 21,
+            "lane": 1,
+            "mac_block": 11,
+            "mac_ch": 1,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 21,
+            "lane": 2,
+            "mac_block": 11,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 21,
+            "lane": 3,
+            "mac_block": 11,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 22,
+            "lane": 0,
+            "mac_block": 10,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 22,
+            "lane": 1,
+            "mac_block": 10,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 22,
+            "lane": 2,
+            "mac_block": 10,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 22,
+            "lane": 3,
+            "mac_block": 10,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 23,
+            "lane": 0,
+            "mac_block": 9,
+            "mac_ch": 0,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 23,
+            "lane": 1,
+            "mac_block": 9,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 23,
+            "lane": 2,
+            "mac_block": 9,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 23,
+            "lane": 3,
+            "mac_block": 9,
+            "mac_ch": 3,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 24,
+            "lane": 0,
+            "mac_block": 8,
+            "mac_ch": 0,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 24,
+            "lane": 1,
+            "mac_block": 8,
+            "mac_ch": 1,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 24,
+            "lane": 2,
+            "mac_block": 8,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 24,
+            "lane": 3,
+            "mac_block": 8,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 2
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 10,
+                    "optical": 10
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 4
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 25,
+            "lane": 0,
+            "mac_block": 6,
+            "mac_ch": 0,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 12
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 25,
+            "lane": 1,
+            "mac_block": 6,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 12
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 25,
+            "lane": 2,
+            "mac_block": 6,
+            "mac_ch": 2,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 12
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 25,
+            "lane": 3,
+            "mac_block": 6,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 12
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 26,
+            "lane": 0,
+            "mac_block": 7,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 12
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 26,
+            "lane": 1,
+            "mac_block": 7,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 12
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 26,
+            "lane": 2,
+            "mac_block": 7,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 12
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 26,
+            "lane": 3,
+            "mac_block": 7,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 12
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 27,
+            "lane": 0,
+            "mac_block": 4,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 27,
+            "lane": 1,
+            "mac_block": 4,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 27,
+            "lane": 2,
+            "mac_block": 4,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 27,
+            "lane": 3,
+            "mac_block": 4,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 28,
+            "lane": 0,
+            "mac_block": 5,
+            "mac_ch": 0,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 28,
+            "lane": 1,
+            "mac_block": 5,
+            "mac_ch": 1,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 28,
+            "lane": 2,
+            "mac_block": 5,
+            "mac_ch": 2,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 28,
+            "lane": 3,
+            "mac_block": 5,
+            "mac_ch": 3,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 14
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 29,
+            "lane": 0,
+            "mac_block": 1,
+            "mac_ch": 0,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 29,
+            "lane": 1,
+            "mac_block": 1,
+            "mac_ch": 1,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 29,
+            "lane": 2,
+            "mac_block": 1,
+            "mac_ch": 2,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 29,
+            "lane": 3,
+            "mac_block": 1,
+            "mac_ch": 3,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 30,
+            "lane": 0,
+            "mac_block": 3,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 4,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 30,
+            "lane": 1,
+            "mac_block": 3,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 4,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 30,
+            "lane": 2,
+            "mac_block": 3,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 4,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 30,
+            "lane": 3,
+            "mac_block": 3,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 4,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 8,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 31,
+            "lane": 0,
+            "mac_block": 0,
+            "mac_ch": 0,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 31,
+            "lane": 1,
+            "mac_block": 0,
+            "mac_ch": 1,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 31,
+            "lane": 2,
+            "mac_block": 0,
+            "mac_ch": 2,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 31,
+            "lane": 3,
+            "mac_block": 0,
+            "mac_ch": 3,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 32,
+            "lane": 0,
+            "mac_block": 2,
+            "mac_ch": 0,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 32,
+            "lane": 1,
+            "mac_block": 2,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 32,
+            "lane": 2,
+            "mac_block": 2,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 32,
+            "lane": 3,
+            "mac_block": 2,
+            "mac_ch": 3,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 6,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 14,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 2,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+		{
+            "connector": 33,
+            "lane": 0,
+            "mac_block": 32,
+            "mac_ch": 0,
+            "tx_lane": 0,
+            "tx_pn_swap": 0,
+            "rx_lane": 0,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 33,
+            "lane": 1,
+            "mac_block": 32,
+            "mac_ch": 1,
+            "tx_lane": 1,
+            "tx_pn_swap": 0,
+            "rx_lane": 1,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 33,
+            "lane": 2,
+            "mac_block": 32,
+            "mac_ch": 2,
+            "tx_lane": 2,
+            "tx_pn_swap": 0,
+            "rx_lane": 2,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        },
+        {
+            "connector": 33,
+            "lane": 3,
+            "mac_block": 32,
+            "mac_ch": 3,
+            "tx_lane": 3,
+            "tx_pn_swap": 0,
+            "rx_lane": 3,
+            "rx_pn_swap": 0,
+            "tx_eq_pre":
+                {
+                    "cu_short": 6,
+                    "cu_1m": 6,
+                    "cu_2m": 6,
+                    "cu_3m": 6,
+                    "cu_loop_0db": 2,
+                    "optical": 3
+                },
+            "tx_eq_post":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 12,
+                    "optical": 16
+                },
+            "tx_eq_attn":
+                {
+                    "cu_short": 0,
+                    "cu_1m": 0,
+                    "cu_2m": 0,
+                    "cu_3m": 0,
+                    "cu_loop_0db": 0,
+                    "optical": 0
+                },
+            "has_repeater": 0,
+            "has_retimer": 0
+        }
+    ]
+}
+

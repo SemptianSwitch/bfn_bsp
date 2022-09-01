@@ -1,0 +1,11 @@
+#!/bin/bash
+#Load bf_fpga kernel module
+
+if [ $# -eq 0 ];
+  then
+    echo "Usage: $(basename ""$0"") <install_dir>"
+    exit 1
+fi
+
+INSTALL_DIR=$1
+insmod $INSTALL_DIR/lib/modules/bf_fpga.ko intr_mode="none"

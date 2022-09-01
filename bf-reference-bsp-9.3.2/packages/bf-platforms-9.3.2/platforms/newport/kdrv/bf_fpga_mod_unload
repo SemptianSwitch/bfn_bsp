@@ -1,0 +1,3 @@
+#!/bin/bash
+#Unload bf_fpga kernel module
+rmmod bf_fpga
